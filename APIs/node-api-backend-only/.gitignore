@@ -1,0 +1,32 @@
+# Dependencies
+/node_modules
+
+# Environment variables
+.env
+config.env
+
+# Logs
+*.log
+
+# IDE specific files
+/.idea/
+/*.iml
+*.DS_Store # macOS related
+
+# OS generated files
+.Thumbs.db
+
+# Build artifacts (if you have a build process)
+/dist
+/build
+
+# Test environment (optional, if you have separate test data)
+/testdata
+
+# Mongoose debug logs (can be verbose)
+mongoose_debug.log
+
+# Other temporary or development files
+tmp/
+temp/
+*.tmp

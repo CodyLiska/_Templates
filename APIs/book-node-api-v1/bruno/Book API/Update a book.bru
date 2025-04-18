@@ -1,0 +1,19 @@
+meta {
+  name: Update a book
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3000/api/books/{{bookId}}
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "The Hobbit (Updated)",
+    "author": "J.R.R. Tolkien",
+    "publishedYear": 1937
+  }
+}

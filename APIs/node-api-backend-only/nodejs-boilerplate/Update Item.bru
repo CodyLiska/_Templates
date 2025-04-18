@@ -1,0 +1,15 @@
+meta {
+  name: Update Item
+  type: http
+  seq: 4
+}
+
+put {
+  url: http://localhost:3000/items/:id
+  body: none
+  auth: inherit
+}
+
+params:path {
+  id: 123
+}

@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-boilerplate-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "next": "15.3.0"
+  }
+}
