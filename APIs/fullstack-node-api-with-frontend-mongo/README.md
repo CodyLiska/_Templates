@@ -1,3 +1,51 @@
+## TODO: 
+- Create your router config file
+  1. Inside /frontend/src, create a file: router.js or router/index.js
+  - js
+    // router.js
+    import { createRouter, createWebHistory } from 'vue-router'
+    import HomeView from './views/HomeView.vue' // or wherever your page component lives
+    
+    const routes = [
+      {
+        path: '/',
+        name: 'Home',
+        component: HomeView
+      },
+      // Add more routes as needed
+    ]
+    
+    const router = createRouter({
+      history: createWebHistory(),
+      routes
+    })
+    
+    export default router
+2.  Update your main.js to use the router
+  - js
+   // main.js
+  import { createApp } from 'vue'
+  import App from './App.vue'
+  import router from './router' // import the router
+  
+  createApp(App).use(router).mount('#app')
+
+3. Make sure <router-view /> is in App.vue
+  - vue
+    <template>
+      <div id="app">
+        <h1>Stretch App</h1>
+        <router-view /> <!-- ✅ this needs Vue Router to work -->
+      </div>
+    </template>
+ 
+  
+
+
+
+
+
+
 # Full Stack Nodejs Boilerplate
 
 A boilerplate project for building full-stack apps using:
