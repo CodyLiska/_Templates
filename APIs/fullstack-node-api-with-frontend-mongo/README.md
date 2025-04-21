@@ -61,8 +61,8 @@ app.listen(PORT, () => {
 ### 3. Create the .env file
 
 ```json
-MONGO_URI=mongodb://localhost:27017/stretch-db
-PORT=3000
+MONGO_URI=<your-mongo-uri>
+PORT=<your-port>
 ```
 
 ### 4. Add backend scripts to backend/package.json
