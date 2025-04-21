@@ -1,0 +1,58 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Vite cache
+.vite/
+.vitepress/
+.temp/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+
+# MongoDB
+dump/
+*.mongo
+
+# Optional frontend framework outputs
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Optional backend build (if you compile)
+backend/node_modules/
+backend/dist/
+
+# OS/Dev clutter
+*.sublime-project
+*.sublime-workspace
+*.bak
+*.tmp
