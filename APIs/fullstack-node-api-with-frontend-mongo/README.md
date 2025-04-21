@@ -83,6 +83,7 @@ npm create vite@latest frontend
 
 cd frontend
 npm install
+npm install vue-router@4
 ```
 
 #### 2. Add Vite config at the root of the frontend/ folder
